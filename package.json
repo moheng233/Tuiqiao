@@ -1,10 +1,14 @@
 {
   "name": "tuiqiao",
   "version": "1.0.0",
-  "description": "推敲-语义化的语句生成器",
+  "description": "推敲-语义化的中文语句生成器",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "nzh": "^1.0.4"
   }
 }
