@@ -10,5 +10,13 @@
   },
   "dependencies": {
     "nzh": "^1.0.4"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": false,
+    "arrowParens": "always"
   }
 }

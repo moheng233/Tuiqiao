@@ -1,21 +1,19 @@
 /**
  * 指示词
- * 
+ *
  * - 我的
  * - 那
  * - 墨恒的
  * - 这
  */
 export class Demonstrative {
-    subject: string;
-    de: boolean;
+	subject: string;
 
-    constructor(subject:string,de: boolean = false){
-        this.subject = subject;
-        this.de = de;
-    }
+	constructor(subject: string) {
+		this.subject = subject;
+	}
 
-    build(){
-        return this.subject + (this.de?"的":"")
-    }
+	build(de: boolean = false) {
+		return this.subject + (de ? "的" : "");
+	}
 }
